@@ -20,10 +20,12 @@
         }
         img {
             max-width: 100%;
-            max-height: 70vh; /* Ensure the image does not take more than 70% of the viewport height */
+            max-height: 70vh;
+            width: auto;
             height: auto;
             border-radius: 10px;
             margin-bottom: 20px;
+            object-fit: contain; /* Ensure the whole image is visible */
         }
         .verse {
             font-size: 1.2em;
